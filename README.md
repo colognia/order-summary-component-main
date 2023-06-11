@@ -28,9 +28,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Live Site URL: [https://colognia.github.io/qr-code-component-main/]
 
 ## My process
+
 - build html
 - create css
-- check and verify frequently with opera and its developer console
+- check and verify frequently with Firefox and its developer console
 - consulting my own notes regarding usage of tags/options, consulting developers.mozilla.org and w3schools
 
 
@@ -41,10 +42,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - editor: visual studio code
 
 ### What I learned
-
-I already learned how to center horizontally and vertically with absolute positioning and translate so I used it here. I know you could use flexboxes as well, but I found this way more simple and quick. But I am not sure if this is the only/best way to do it.
-Although the task is small I used variables for the colors, which is handy for bigger sites.
-
+Learned more about aligning and absolute/relative positioning.
 
 ### Continued development
 
