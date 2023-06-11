@@ -24,8 +24,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [https://github.com/colognia/qr-code-component-main]
-- Live Site URL: [https://colognia.github.io/qr-code-component-main/]
+- Solution URL: [https://github.com/colognia/order-summary-component-main.git]
+- Live Site URL: [https://colognia.github.io/order-summary-component-main/]
 
 ## My process
 
@@ -46,7 +46,7 @@ Learned more about aligning and absolute/relative positioning.
 
 ### Continued development
 
-Learn more about positioning, especially centering.
+Learn more about positioning, especially centering within different elements (grid, flex, block...).
 
 ### Useful resources
 

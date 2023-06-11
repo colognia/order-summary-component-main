@@ -1,6 +1,169 @@
-:root{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root{
+--paleblue:hsl(225, 100%, 94%);
+--brightblue: hsl(245, 75%, 52%);
+--white: hsl(225, 100%, 98%);
+--greyblue: hsl(224, 23%, 55%);
+--containershadow: rgb(203, 213, 249);
+--darkblue: hsl(223, 47%, 23%);
+--lightgrey: rgb(248, 249, 254);
+--buttonshadow: hsl(245, 75%, 90%);
+--buttonhover: rgb(118, 108, 241);
+font-size: 16px;
+font-family: 'Red Hat Display', sans-serif;
+color: var(--greyblue);
+text-align: center;
+}
+
+body{
+    min-height: 100vh;
+    background-color: var(--paleblue);
+}
+
+#wave{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw; /*sonst dehnt sich nicht waag aus*/
+    z-index: -1;
+}
+
+section{
+    display: flex;  /*nur zum zentrieren*/
+    min-height: 100vh; /*sont ist Höhe zu kurz*/
+    align-items: center; 
+    justify-content: center;
+}
+
+#container{
+    width: 300px;
+    height:450px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 10px 10px 0px var(--containershadow);
+}
+
+#imagediv img{
+    max-width: 100%;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 7%;
+}
+
+#orderdiv h3{
+    color: var(--darkblue);
+    font-weight: 900;
+    margin-bottom: 4%;
+}
+
+#orderdiv p{
+    font-size: 0.7em;
+    width: 80%;
+    margin: 0 auto 4% auto;
+    padding: 0 5%;
+    line-height: 150%;
+}
+
+#subscriptiondiv{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 14%;
+    margin: 0 auto;
+    background-color: var(--lightgrey);
+    border-radius: 8px;
+    margin-bottom: 5%;
+}
+
+#subscriptiondiv img{
+    max-width: 20%;
+    object-fit: contain;
+    padding-left: 7%;
+}
+
+#pricediv{
+    width: 60%;
+    text-align: left;
+    font-size: 0.8em;
+    padding-left: 6%;
+}
+
+#pricediv h4{
+    color: var(--darkblue);
+    font-size: 0.9em;
     
+}
+
+#pricediv p{
+    font-size: 0.8em;
+}
+
+#change{
+    font-size: 0.6em;
+    text-align: right;
+    color: var(--brightblue);
+    text-decoration: underline;
+}
+
+#change:hover{
+    color: var(--buttonhover);
+    text-decoration: none;
+}
+
+#buttondiv{
+    mmin-height: 20%;
+}
+
+button{
+    min-width: 80%;
+    margin: 0 auto;
+    background-color: var(--brightblue);
+    color: var(--lightgrey);
+    border: 0;
+    font-size: 0.6em;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 0px var(--buttonshadow);
+    padding: 4%;
+    margin-bottom: 7%;
+}
+
+#buttondiv p{
+    font-size: 0.6em;
+    font-weight: bold;
+}
+
+#buttondiv p:hover{
+    color: var(--darkblue);
+}
+
+#button:hover{
+    cursor: pointer;
+    background-color: var(--buttonhover);
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+#footerdiv{
+    text-align: left;
+    font-size: 0.7em;
+}
+
+div#footerdiv p{
+    display: inline-block;
+    padding: 10px;
+}
+
+@media(max-width: 375px) {
+    #wave{
+        display: none;
+    }   
 }
