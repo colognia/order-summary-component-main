@@ -16,7 +16,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
-1st challenge for front end developers.
+2nd challenge for front end developers.
 
 ### Screenshot
 
