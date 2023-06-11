@@ -34,12 +34,14 @@ body{
 }
 
 section{
-    display: flex;  /*nur zum zentrieren*/
+    display: flex;  /*nur zum zentrieren. grid wär auch gegangen zum Positionieren*/
     min-height: 100vh; /*sont ist Höhe zu kurz*/
     align-items: center; 
     justify-content: center;
 }
 
+/*container in section als flexcontainer, weil die Elemente in container nicht flex sein solln, ist 
+hier block*/
 #container{
     width: 300px;
     height:450px;

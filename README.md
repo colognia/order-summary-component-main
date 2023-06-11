@@ -42,7 +42,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - editor: visual studio code
 
 ### What I learned
-Learned more about aligning and absolute/relative positioning.
+Learned more about aligning and absolute/relative positioning. You can not set this transparent background image as an css-background image for the body, because then you can not position it on top of page.
 
 ### Continued development
 

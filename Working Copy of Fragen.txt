@@ -1,0 +1,4 @@
+- do you size the containerbox absolute in px oder relative in % ? If you want it to grow/shrink relatively on bigger monitors would you use aspect-radio: x/y ?
+- it it ok to put the image tag for the backgroundimage as first tag in the body? Is there a better place?
+- inside the container, are you using grid/flex for positioning the items? As the dimensions are all different, I gave it up and worked with padding/margin.
+- Which font-size shall p-Elements have? Can not be weight 500 as in description (smallest given size), way too big, so I used 0.8em.
